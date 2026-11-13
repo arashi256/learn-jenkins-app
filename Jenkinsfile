@@ -92,7 +92,7 @@ pipeline {
             }
         }
 
-        tage('prode2e') {
+        stage('prode2e') {
             environment {
                 CI_ENVIRONMENT_URL = 'https://glowing-lebkuchen-f0a235.netlify.app'
             }
